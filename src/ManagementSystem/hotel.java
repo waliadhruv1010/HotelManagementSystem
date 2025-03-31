@@ -11,8 +11,8 @@ public class hotel {
 	
 	public static void main(String[] args) {
 		String url="jdbc:mysql://localhost:3306/hotelmanagementsystem";
-		String Username="root";
-		String password="Dhruv@@10##";
+		String Username="YOUR USERNAME";
+		String password="YOUR PASSWORD";
 		Connection connection =null;
 		Scanner scanner = new Scanner(System.in);
 		try {
