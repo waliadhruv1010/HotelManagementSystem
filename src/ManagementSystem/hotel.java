@@ -190,14 +190,6 @@ public class hotel {
 	            System.out.println("--------------------------------------------------");
 		}catch(Exception e) {
 			e.printStackTrace();
-		}finally {
-			try {
-				connection.close();
-				ps.close();
-				rs.close();
-			}catch(SQLException e) {
-				e.printStackTrace();
-			}
 		}
 	}
 }
